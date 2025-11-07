@@ -3,10 +3,10 @@ import { Sparkles, Zap, Shield } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen" style={{ background: "#0D0F12" }}>
+    <div className="min-h-screen" style={{ background: "#F8F9FA" }}>
       <nav className="sticky top-0 z-50 border-b" style={{ 
-        background: "#13161B", 
-        borderColor: "#2A313A" 
+        background: "#FFFFFF", 
+        borderColor: "#E5E7EB" 
       }}>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
@@ -15,7 +15,7 @@ export default function Home() {
                 className="text-xl font-bold tracking-tight"
                 style={{ 
                   fontFamily: "'Plus Jakarta Sans', sans-serif",
-                  color: "#E6EAF0" 
+                  color: "#1F2937" 
                 }}
               >
                 Welcome
@@ -24,9 +24,9 @@ export default function Home() {
             <Button
               className="rounded-full px-6 h-11 font-medium"
               style={{
-                background: "#2A2F36",
-                color: "#FFFFFF",
-                border: "1px solid #2A313A",
+                background: "#F3F4F6",
+                color: "#1F2937",
+                border: "1px solid #D1D5DB",
                 fontFamily: "'Inter', sans-serif"
               }}
             >
@@ -58,7 +58,7 @@ export default function Home() {
               className="mx-auto mb-12 max-w-2xl text-lg leading-relaxed sm:text-xl"
               style={{
                 fontFamily: "'Inter', sans-serif",
-                color: "#A1A8B3",
+                color: "#6B7280",
                 lineHeight: "1.65"
               }}
             >
@@ -71,15 +71,17 @@ export default function Home() {
                 className="group relative h-12 rounded-full px-8 text-base font-medium transition-all"
                 style={{
                   background: "transparent",
-                  color: "#FFFFFF",
+                  color: "#1F2937",
                   border: "2px solid #22C55E",
                   fontFamily: "'Inter', sans-serif"
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.background = "#22C55E";
+                  e.currentTarget.style.color = "#FFFFFF";
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.background = "transparent";
+                  e.currentTarget.style.color = "#1F2937";
                 }}
               >
                 Get Started Today
@@ -94,8 +96,8 @@ export default function Home() {
               <div 
                 className="group rounded-3xl p-8 transition-all duration-300"
                 style={{
-                  background: "#1A1F27",
-                  border: "1px solid #2A313A"
+                  background: "#FFFFFF",
+                  border: "1px solid #E5E7EB"
                 }}
               >
                 <div 
@@ -108,7 +110,7 @@ export default function Home() {
                   className="mb-3 text-xl font-bold"
                   style={{
                     fontFamily: "'Plus Jakarta Sans', sans-serif",
-                    color: "#E6EAF0"
+                    color: "#1F2937"
                   }}
                 >
                   Powerful Features
@@ -117,7 +119,7 @@ export default function Home() {
                   className="leading-relaxed"
                   style={{
                     fontFamily: "'Inter', sans-serif",
-                    color: "#A1A8B3",
+                    color: "#6B7280",
                     lineHeight: "1.65"
                   }}
                 >
@@ -128,8 +130,8 @@ export default function Home() {
               <div 
                 className="group rounded-3xl p-8 transition-all duration-300"
                 style={{
-                  background: "#1A1F27",
-                  border: "1px solid #2A313A"
+                  background: "#FFFFFF",
+                  border: "1px solid #E5E7EB"
                 }}
               >
                 <div 
@@ -142,7 +144,7 @@ export default function Home() {
                   className="mb-3 text-xl font-bold"
                   style={{
                     fontFamily: "'Plus Jakarta Sans', sans-serif",
-                    color: "#E6EAF0"
+                    color: "#1F2937"
                   }}
                 >
                   Lightning Fast
@@ -151,7 +153,7 @@ export default function Home() {
                   className="leading-relaxed"
                   style={{
                     fontFamily: "'Inter', sans-serif",
-                    color: "#A1A8B3",
+                    color: "#6B7280",
                     lineHeight: "1.65"
                   }}
                 >
@@ -162,8 +164,8 @@ export default function Home() {
               <div 
                 className="group rounded-3xl p-8 transition-all duration-300 sm:col-span-2 lg:col-span-1"
                 style={{
-                  background: "#1A1F27",
-                  border: "1px solid #2A313A"
+                  background: "#FFFFFF",
+                  border: "1px solid #E5E7EB"
                 }}
               >
                 <div 
@@ -176,7 +178,7 @@ export default function Home() {
                   className="mb-3 text-xl font-bold"
                   style={{
                     fontFamily: "'Plus Jakarta Sans', sans-serif",
-                    color: "#E6EAF0"
+                    color: "#1F2937"
                   }}
                 >
                   Secure & Reliable
@@ -185,7 +187,7 @@ export default function Home() {
                   className="leading-relaxed"
                   style={{
                     fontFamily: "'Inter', sans-serif",
-                    color: "#A1A8B3",
+                    color: "#6B7280",
                     lineHeight: "1.65"
                   }}
                 >
@@ -200,15 +202,15 @@ export default function Home() {
           <div 
             className="mx-auto max-w-4xl rounded-3xl p-12 text-center sm:p-16"
             style={{
-              background: "#1A1F27",
-              border: "1px solid #2A313A"
+              background: "#FFFFFF",
+              border: "1px solid #E5E7EB"
             }}
           >
             <h2 
               className="mb-4 text-4xl font-bold sm:text-5xl"
               style={{
                 fontFamily: "'Plus Jakarta Sans', sans-serif",
-                color: "#E6EAF0",
+                color: "#1F2937",
                 letterSpacing: "-0.015em"
               }}
             >
@@ -218,7 +220,7 @@ export default function Home() {
               className="mx-auto mb-8 max-w-2xl text-lg"
               style={{
                 fontFamily: "'Inter', sans-serif",
-                color: "#A1A8B3",
+                color: "#6B7280",
                 lineHeight: "1.65"
               }}
             >
@@ -229,15 +231,17 @@ export default function Home() {
               className="h-12 rounded-full px-8 text-base font-medium transition-all"
               style={{
                 background: "transparent",
-                color: "#FFFFFF",
+                color: "#1F2937",
                 border: "2px solid #22C55E",
                 fontFamily: "'Inter', sans-serif"
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.background = "#22C55E";
+                e.currentTarget.style.color = "#FFFFFF";
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.background = "transparent";
+                e.currentTarget.style.color = "#1F2937";
               }}
             >
               Start Building Now
@@ -249,7 +253,7 @@ export default function Home() {
       <footer 
         className="border-t px-6 py-12 lg:px-8"
         style={{
-          borderColor: "#2A313A"
+          borderColor: "#E5E7EB"
         }}
       >
         <div className="mx-auto max-w-7xl">
@@ -257,7 +261,7 @@ export default function Home() {
             className="text-center text-sm"
             style={{
               fontFamily: "'Inter', sans-serif",
-              color: "#7B8392"
+              color: "#9CA3AF"
             }}
           >
             © 2025 Welcome. All rights reserved.
